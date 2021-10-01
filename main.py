@@ -14,9 +14,10 @@ GREEN = (10, 100, 10)
 BLUE = (10, 10, 150)
 PURPLE = (70, 0, 70)
 
-TOPE = (70, 50, 60)
+TAUPE = (70, 50, 60)
 PINK = (250, 70, 90)
-NEW2 = (120, 24, 9)
+
+NEW2 = (85, 15, 10)
 
 # math constants
 
@@ -39,6 +40,15 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+
+    ## functions ##
+    #house
+    def house(place, fill, )
+
+
+    ## drawing ##
+
+
 
     pygame.display.flip()
 
