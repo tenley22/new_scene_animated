@@ -1,4 +1,3 @@
-# go to terminal (@ bottom of screen) and write "pip install pygame" after PS C: line
 # USE OBJECT ORIENTED
 import pygame
 import math
@@ -85,6 +84,22 @@ y_velo = 3
 ghost_side = 21
 ghost_height = 100
 ghost_area = 300
+
+class Cat: 
+  def __init__(self, x1, y1, legx1, legy1, legx2, legy2, legx3, legy3, legx4, legy4, color):
+    self.x1 = x1
+    self.y1 = y1
+    self.legx1 = legx1
+    self.legy1 = legy1
+    self.legx2 = legx2
+    self.legy2 = legy2
+    self.legx3 = legx3
+    self.legy3 = legy3
+    self.legx4 = legx4
+    self.legy4 = legy4
+  
+  def draw_cat(self):
+    pygame.draw.circle(screen, self.color, (self.x1, self.y1), 20)
 
 
 
